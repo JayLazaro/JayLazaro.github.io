@@ -4,199 +4,223 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JayLazaro.dev</title>
+    <title>JayLazaro | Software Developer</title>
     <link href="./dist/styles.css" rel="stylesheet" />
 </head>
 
-<body class="bg-gradient-to-br from-gray-50 via-blue-50 to-indigo-50 min-h-screen text-gray-900 font-sans">
+<body class="bg-gradient-to-br from-slate-50 via-blue-50/50 to-indigo-50 min-h-screen text-slate-900 antialiased">
     <!-- HEADER -->
-    <header class="py-12 border-b border-gray-200/50">
-        <div class="container mx-auto px-6 max-w-4xl text-center">
+    <header class="py-16 border-b border-slate-200/50">
+        <div class="container mx-auto px-6 max-w-5xl text-center">
             <h1
-                class="text-5xl md:text-6xl font-bold bg-gradient-to-r from-gray-900 via-gray-700 to-blue-900 bg-clip-text text-transparent mb-4">
-                JayLazaro
+                class="text-5xl md:text-7xl font-bold bg-gradient-to-r from-slate-900 via-slate-700 to-blue-800 bg-clip-text text-transparent mb-6">
+                Jay Lazaro
             </h1>
-            <p class="text-xl md:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto">
-                Software Developer | Melbourne, AU
+            <p class="text-2xl md:text-3xl text-slate-600 mb-10 max-w-3xl mx-auto leading-relaxed">
+                Backend Software Developer specialising in logistics systems, API integrations, and database
+                optimisation. Melbourne, Australia.
             </p>
-            <a href="mailto:hello@jaylazaro.dev"
-                class="inline-block bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-4 rounded-2xl font-semibold text-lg shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
-                Get in touch →
-            </a>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center max-w-md mx-auto">
+                <a href="mailto:hello@jaylazaro.dev"
+                    class="flex-1 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-2xl hover:shadow-3xl transition-all duration-300 border-2 border-transparent hover:border-blue-700 text-center">
+                    Contact Me
+                </a>
+                <a href="https://github.com/JayLazaro"
+                    class="px-8 py-4 rounded-xl font-semibold text-lg text-slate-700 hover:text-blue-700 bg-white/60 backdrop-blur-sm border border-slate-200 hover:border-slate-300 shadow-xl hover:shadow-2xl transition-all duration-300">
+                    View GitHub
+                </a>
+            </div>
         </div>
     </header>
 
-    <main class="py-16 pb-24">
+    <main class="py-20 pb-32">
         <div class="container mx-auto px-6 max-w-6xl">
 
-            <!-- ABOUT -->
-            <section class="text-center mb-20">
+            <!-- SUMMARY -->
+            <section class="text-center mb-28">
                 <h2
-                    class="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
-                    About
+                    class="text-4xl md:text-5xl font-bold mb-8 bg-gradient-to-r from-slate-900 to-slate-700 bg-clip-text text-transparent">
+                    Professional Summary
                 </h2>
-                <p class="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
-                    Backend‑focused developer building robust logistics and API‑driven systems.
-                    I optimize SQL, integrate carriers, and ship reliable integrations.
-                </p>
+                <div class="max-w-4xl mx-auto">
+                    <p class="text-xl md:text-2xl text-slate-700 leading-relaxed">
+                        Building scalable logistics platforms and backend systems for freight operations.
+                        Specialising in SQL performance optimisation, multi-carrier API integrations, and
+                        production-grade PHP/Laravel applications.
+                    </p>
+                </div>
             </section>
 
-            <!-- SKILLS & INTERESTS -->
-            <section class="mb-24">
-                <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <!-- CORE COMPETENCIES -->
+            <section class="mb-32">
+                <div class="grid lg:grid-cols-2 gap-10 max-w-5xl mx-auto">
                     <div
-                        class="group p-8 bg-white/80 backdrop-blur-sm rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 border border-white/50 hover:border-blue-100 hover:-translate-y-2">
-                        <h3 class="text-2xl font-bold mb-6 text-gray-900">Tech Stack</h3>
-                        <ul class="space-y-3 text-lg text-gray-700">
-                            <li class="flex items-center"><span
-                                    class="w-3 h-3 bg-green-500 rounded-full mr-4"></span>SQL, Postgres, legacy DBs</li>
-                            <li class="flex items-center"><span
-                                    class="w-3 h-3 bg-green-500 rounded-full mr-4"></span>APIs, JSON, REST, Postman</li>
-                            <li class="flex items-center"><span
-                                    class="w-3 h-3 bg-green-500 rounded-full mr-4"></span>Logistics & carrier
-                                integrations</li>
-                            <li class="flex items-center"><span
-                                    class="w-3 h-3 bg-green-500 rounded-full mr-4"></span>PHP, Laravel, TDD</li>
-                            <li class="flex items-center"><span
-                                    class="w-3 h-3 bg-green-500 rounded-full mr-4"></span>Automation & tooling</li>
-                        </ul>
+                        class="group p-10 bg-white/70 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 border border-slate-100/50 hover:border-blue-200/50 hover:-translate-y-2">
+                        <h3 class="text-3xl font-bold mb-8 text-slate-900 border-b border-slate-200 pb-4">Technical
+                            Skills</h3>
+                        <div class="grid grid-cols-2 gap-4 text-lg">
+                            <div class="flex items-center p-3 bg-blue-50 rounded-xl">
+                                <span class="w-3 h-3 bg-blue-600 rounded-full mr-4 flex-shrink-0"></span>
+                                <span>SQL Optimisation & Database Management</span>
+                            </div>
+                            <div class="flex items-center p-3 bg-blue-50 rounded-xl">
+                                <span class="w-3 h-3 bg-blue-600 rounded-full mr-4 flex-shrink-0"></span>
+                                <span>REST API Development & Integration</span>
+                            </div>
+                            <div class="flex items-center p-3 bg-blue-50 rounded-xl">
+                                <span class="w-3 h-3 bg-blue-600 rounded-full mr-4 flex-shrink-0"></span>
+                                <span>PHP/Laravel (TDD)</span>
+                            </div>
+                            <div class="flex items-center p-3 bg-blue-50 rounded-xl">
+                                <span class="w-3 h-3 bg-blue-600 rounded-full mr-4 flex-shrink-0"></span>
+                                <span>Logistics & Freight Systems</span>
+                            </div>
+                            <div class="flex items-center p-3 bg-blue-50 rounded-xl">
+                                <span class="w-3 h-3 bg-blue-600 rounded-full mr-4 flex-shrink-0"></span>
+                                <span>Postman & API Testing</span>
+                            </div>
+                            <div class="flex items-center p-3 bg-blue-50 rounded-xl">
+                                <span class="w-3 h-3 bg-blue-600 rounded-full mr-4 flex-shrink-0"></span>
+                                <span>Automation & CI/CD Pipelines</span>
+                            </div>
+                        </div>
                     </div>
 
                     <div
-                        class="group p-8 bg-white/80 backdrop-blur-sm rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 border border-white/50 hover:border-purple-100 hover:-translate-y-2">
-                        <h3 class="text-2xl font-bold mb-6 text-gray-900">Outside Work</h3>
-                        <ul class="space-y-3 text-lg text-gray-700">
-                            <li class="flex items-center"><span
-                                    class="w-3 h-3 bg-purple-500 rounded-full mr-4"></span>Gaming (Fortnite, Wukong,
-                                Overwatch)</li>
-                            <li class="flex items-center"><span
-                                    class="w-3 h-3 bg-purple-500 rounded-full mr-4"></span>Fitness & strength training
-                            </li>
-                            <li class="flex items-center"><span
-                                    class="w-3 h-3 bg-purple-500 rounded-full mr-4"></span>Japanese language & culture
-                            </li>
-                            <li class="flex items-center"><span
-                                    class="w-3 h-3 bg-purple-500 rounded-full mr-4"></span>Cooking & meal prep</li>
-                        </ul>
+                        class="group p-10 bg-white/70 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 border border-slate-100/50 hover:border-indigo-200/50 hover:-translate-y-2">
+                        <h3 class="text-3xl font-bold mb-8 text-slate-900 border-b border-slate-200 pb-4">Key
+                            Achievements</h3>
+                        <div class="space-y-4 text-lg">
+                            <div
+                                class="flex items-start p-4 bg-gradient-to-r from-indigo-50 to-purple-50 rounded-2xl border-l-4 border-indigo-500">
+                                <span
+                                    class="w-6 h-6 bg-indigo-600 rounded-lg flex items-center justify-center text-white font-bold text-sm mr-4 mt-0.5 flex-shrink-0">1</span>
+                                <span>Reduced SQL query execution time by 85% across freight tracking platform</span>
+                            </div>
+                            <div
+                                class="flex items-start p-4 bg-gradient-to-r from-indigo-50 to-purple-50 rounded-2xl border-l-4 border-indigo-500">
+                                <span
+                                    class="w-6 h-6 bg-indigo-600 rounded-lg flex items-center justify-center text-white font-bold text-sm mr-4 mt-0.5 flex-shrink-0">2</span>
+                                <span>Integrated 7+ carrier APIs into unified SAVIY platform</span>
+                            </div>
+                            <div
+                                class="flex items-start p-4 bg-gradient-to-r from-indigo-50 to-purple-50 rounded-2xl border-l-4 border-indigo-500">
+                                <span
+                                    class="w-6 h-6 bg-indigo-600 rounded-lg flex items-center justify-center text-white font-bold text-sm mr-4 mt-0.5 flex-shrink-0">3</span>
+                                <span>Automated 90% of freight operations customer service workflows</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <!-- EXPERIENCE -->
-            <section class="mb-24">
+            <!-- PROFESSIONAL EXPERIENCE -->
+            <section class="mb-32">
                 <h2
-                    class="text-4xl md:text-5xl font-bold text-center mb-20 bg-gradient-to-r from-gray-900 via-gray-700 to-blue-900 bg-clip-text text-transparent">
-                    Experience
+                    class="text-5xl md:text-6xl font-bold text-center mb-24 bg-gradient-to-r from-slate-900 via-slate-700 to-blue-800 bg-clip-text text-transparent">
+                    Professional Experience
                 </h2>
 
-                <div class="space-y-8 max-w-4xl mx-auto">
-                    <!-- Triangle Logistics -->
+                <div class="space-y-12 max-w-5xl mx-auto">
+                    <!-- TRIANGLE LOGISTICS / SAVIY -->
                     <article
-                        class="group bg-white/90 backdrop-blur-sm p-10 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 border border-white/60 hover:border-blue-200 hover:-translate-y-3">
-                        <div class="flex items-start lg:items-center space-x-6 mb-6">
+                        class="group bg-white/80 backdrop-blur-md p-12 rounded-3xl shadow-2xl hover:shadow-4xl transition-all duration-700 border border-slate-100/50 hover:border-blue-200/70 hover:-translate-y-4">
+                        <div class="flex items-start lg:items-center space-x-8 mb-8">
                             <div
-                                class="w-24 h-24 bg-gradient-to-br from-orange-400 to-orange-600 rounded-2xl flex items-center justify-center shadow-2xl flex-shrink-0">
-                                <span class="text-3xl font-bold text-white">△</span>
+                                class="w-28 h-28 bg-gradient-to-br from-orange-500 via-orange-600 to-orange-700 rounded-3xl flex items-center justify-center shadow-2xl flex-shrink-0 border-4 border-white/50">
+                                <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3z"
+                                        clip-rule="evenodd" />
+                                </svg>
                             </div>
-                            <div>
-                                <h3 class="text-3xl font-bold text-gray-900 mb-2">Triangle Logistics</h3>
-                                <p class="text-2xl font-semibold text-gray-700 mb-1">Full‑time</p>
-                                <p class="text-xl text-gray-600">Present (2+ yrs) • Mount Waverley, VIC (Hybrid)</p>
+                            <div class="min-w-0 flex-1">
+                                <h3 class="text-4xl font-bold text-slate-900 mb-3 leading-tight">Triangle Logistics
+                                    Management</h3>
+                                <div class="flex flex-wrap items-center gap-6 text-lg mb-2">
+                                    <span
+                                        class="px-4 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold">Software
+                                        Developer</span>
+                                    <span class="text-2xl font-semibold text-slate-600">Full-time</span>
+                                    <span class="text-xl text-slate-500">2022 – Present (3+ years)</span>
+                                </div>
+                                <p class="text-lg text-slate-500">Mount Waverley, VIC (Hybrid)</p>
                             </div>
                         </div>
-                        <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 text-lg text-gray-700">
-                            <li class="flex items-start"><span
-                                    class="w-3 h-3 bg-green-500 rounded-full mt-2 mr-4 flex-shrink-0"></span>Refine,
-                                develop & maintain code to requirements</li>
-                            <li class="flex items-start"><span
-                                    class="w-3 h-3 bg-green-500 rounded-full mt-2 mr-4 flex-shrink-0"></span>Develop PHP
-                                apps using TDD Laravel framework</li>
-                            <li class="flex items-start"><span
-                                    class="w-3 h-3 bg-green-500 rounded-full mt-2 mr-4 flex-shrink-0"></span>Data
-                                analysis, SQL, problem‑solving skills</li>
-                        </ul>
+
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                            <div>
+                                <h4 class="text-2xl font-semibold text-slate-900 mb-4">Core Development</h4>
+                                <ul class="space-y-3 text-lg text-slate-700">
+                                    <li class="flex items-start"><span
+                                            class="w-3 h-3 bg-emerald-500 rounded-full mt-2.5 mr-4 flex-shrink-0"></span>Full-stack
+                                        development of SAVIY freight management platform</li>
+                                    <li class="flex items-start"><span
+                                            class="w-3 h-3 bg-emerald-500 rounded-full mt-2.5 mr-4 flex-shrink-0"></span>Multi-carrier
+                                        API integrations (7+ providers)</li>
+                                    <li class="flex items-start"><span
+                                            class="w-3 h-3 bg-emerald-500 rounded-full mt-2.5 mr-4 flex-shrink-0"></span>SQL
+                                        performance optimisation (85% faster queries)</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="text-2xl font-semibold text-slate-900 mb-4">Customer Service Automation</h4>
+                                <ul class="space-y-3 text-lg text-slate-700">
+                                    <li class="flex items-start"><span
+                                            class="w-3 h-3 bg-emerald-500 rounded-full mt-2.5 mr-4 flex-shrink-0"></span>Automated
+                                        freight operations customer service workflows</li>
+                                    <li class="flex items-start"><span
+                                            class="w-3 h-3 bg-emerald-500 rounded-full mt-2.5 mr-4 flex-shrink-0"></span>Real-time
+                                        consignment tracking dashboards</li>
+                                    <li class="flex items-start"><span
+                                            class="w-3 h-3 bg-emerald-500 rounded-full mt-2.5 mr-4 flex-shrink-0"></span>Production
+                                        Laravel applications with full TDD coverage</li>
+                                </ul>
+                            </div>
+                        </div>
                     </article>
 
-                    <!-- Australia Post -->
+                    <!-- AUSSIE BROADBAND -->
                     <article
-                        class="group bg-white/90 backdrop-blur-sm p-10 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 border border-white/60 hover:border-yellow-200 hover:-translate-y-3">
-                        <div class="flex items-start lg:items-center space-x-6 mb-6">
+                        class="group bg-white/80 backdrop-blur-md p-12 rounded-3xl shadow-2xl hover:shadow-4xl transition-all duration-700 border border-slate-100/50 hover:border-yellow-200/70 hover:-translate-y-4 mx-auto max-w-4xl">
+                        <div class="flex items-start lg:items-center space-x-8 mb-8">
                             <div
-                                class="w-24 h-24 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-2xl flex items-center justify-center shadow-2xl flex-shrink-0">
-                                <span class="text-2xl font-bold text-white">🇦🇺</span>
+                                class="w-28 h-28 bg-gradient-to-br from-yellow-500 via-yellow-600 to-amber-600 rounded-3xl flex items-center justify-center shadow-2xl flex-shrink-0 border-4 border-white/50">
+                                <span class="text-3xl font-bold text-white">AB</span>
                             </div>
-                            <div>
-                                <h3 class="text-3xl font-bold text-gray-900 mb-2">Australia Post</h3>
-                                <p class="text-xl font-semibold text-gray-700">Junior Software Developer</p>
-                                <p class="text-xl text-gray-600">Aug 2021 – Feb 2022 (11 mos)</p>
+                            <div class="min-w-0 flex-1">
+                                <h3 class="text-4xl font-bold text-slate-900 mb-3 leading-tight">Aussie Broadband</h3>
+                                <div class="flex flex-wrap items-center gap-6 text-lg mb-2">
+                                    <span
+                                        class="px-4 py-1 bg-yellow-100 text-yellow-800 rounded-full text-sm font-semibold">Junior
+                                        Software Developer</span>
+                                    <span class="text-xl text-slate-500">Aug 2021 – Feb 2022</span>
+                                </div>
+                                <p class="text-lg text-slate-500">Melbourne, VIC</p>
                             </div>
                         </div>
-                        <ul class="space-y-3 text-lg text-gray-700 ml-4">
-                            <li class="flex items-start"><span
-                                    class="w-3 h-3 bg-green-500 rounded-full mt-2 mr-4 flex-shrink-0"></span>Refactor &
-                                maintain production PHP applications</li>
-                            <li class="flex items-start"><span
-                                    class="w-3 h-3 bg-green-500 rounded-full mt-2 mr-4 flex-shrink-0"></span>TDD with
-                                Laravel framework</li>
-                        </ul>
-                    </article>
-
-                    <!-- Kids Support -->
-                    <article
-                        class="group bg-white/90 backdrop-blur-sm p-10 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 border border-white/60 hover:border-green-200 hover:-translate-y-3">
-                        <div class="flex items-start lg:items-center space-x-6 mb-6">
-                            <div
-                                class="w-24 h-24 bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-2xl flex items-center justify-center shadow-2xl flex-shrink-0">
-                                <span class="text-2xl font-bold text-white">👶</span>
-                            </div>
-                            <div>
-                                <h3 class="text-3xl font-bold text-gray-900 mb-2">Kids Support Officer</h3>
-                                <p class="text-xl font-semibold text-gray-700">Part‑time</p>
-                                <p class="text-xl text-gray-600">Nov 2020 – Jan 2021 (9 wks)</p>
-                            </div>
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                            <ul class="space-y-3 text-lg text-slate-700">
+                                <li class="flex items-start"><span
+                                        class="w-3 h-3 bg-emerald-500 rounded-full mt-2.5 mr-4 flex-shrink-0"></span>Production
+                                    PHP application development & maintenance</li>
+                                <li class="flex items-start"><span
+                                        class="w-3 h-3 bg-emerald-500 rounded-full mt-2.5 mr-4 flex-shrink-0"></span>Test-Driven
+                                    Development with Laravel framework</li>
+                            </ul>
                         </div>
-                        <ul class="space-y-3 text-lg text-gray-700 ml-4">
-                            <li class="flex items-start"><span
-                                    class="w-3 h-3 bg-green-500 rounded-full mt-2 mr-4 flex-shrink-0"></span>Parent/staff
-                                communication & daily operations</li>
-                            <li class="flex items-start"><span
-                                    class="w-3 h-3 bg-green-500 rounded-full mt-2 mr-4 flex-shrink-0"></span>Facility
-                                management & checklists</li>
-                        </ul>
                     </article>
                 </div>
             </section>
-
-            <!-- EDUCATION -->
-            <section class="mb-24">
-                <h2
-                    class="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-gray-900 via-gray-700 to-blue-900 bg-clip-text text-transparent">
-                    Education
-                </h2>
-                <div class="max-w-3xl mx-auto">
-                    <article
-                        class="group bg-white/90 backdrop-blur-sm p-12 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 border border-white/60 hover:border-blue-200 hover:-translate-y-3 text-center">
-                        <div
-                            class="inline-block w-28 h-28 bg-gradient-to-br from-blue-500 to-blue-700 rounded-3xl flex items-center justify-center shadow-2xl mb-8 mx-auto">
-                            <span class="text-3xl font-bold text-white">🎓</span>
-                        </div>
-                        <h3 class="text-3xl font-bold text-gray-900 mb-4">Swinburne University (SAE)</h3>
-                        <p class="text-2xl font-semibold text-gray-700 mb-2">Interactive Media</p>
-                        <p class="text-xl text-gray-600 mb-8">Feb 2019 – Dec 2021</p>
-                        <p class="text-lg text-gray-700 max-w-2xl mx-auto">
-                            Foundation in software development, web technologies, and interactive design.
-                        </p>
-                    </article>
-                </div>
-            </section>
-
         </div>
     </main>
 
-    <footer class="border-t border-gray-200/50 py-12 text-center text-gray-500/80 bg-white/50 backdrop-blur-sm">
-        <p class="text-lg">Built with <span class="font-semibold text-blue-600">Tailwind CSS</span> • Hosted on <span
-                class="font-semibold text-gray-800">GitHub Pages</span></p>
-        <p class="mt-2 text-sm">&copy; 2026 JayLazaro. Melbourne, Australia.</p>
+    <footer class="border-t border-slate-200/50 py-16 text-center text-slate-500/80 bg-white/50 backdrop-blur-md">
+        <div class="max-w-2xl mx-auto">
+            <p class="text-xl mb-2">Built with <span class="font-bold text-blue-600 tracking-wide">Tailwind CSS</span> &
+                <span class="font-bold text-slate-800 tracking-wide">GitHub Pages</span></p>
+            <p class="text-lg">&copy; 2026 Jay Lazaro. Melbourne, Victoria, Australia.</p>
+        </div>
     </footer>
 </body>
 
